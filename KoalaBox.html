@@ -1,0 +1,71 @@
+﻿ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="description" content="Carousel of pictures for learoyds.com including, solar panels, wind turbines."/>
+<meta name="keywords" content="learoyds, learoyds.com, web, web design, website design, alternative energy, solar power, koalas." />
+
+<title>KoalaBox</title>
+
+<link type="text/css" href="css/flick/jquery-ui-1.8.9.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/cloud-carousel.1.0.4.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(		
+		{			
+			xPos: 480,
+			yPos:55,
+			yRadius: 45,
+			xRadius: 350,
+			buttonLeft: $("#left-but"),
+			buttonRight: $("#right-but"),
+			altBox: $("#alt-text"),
+			titleBox: $("#title-text")
+		}
+	);
+});
+ 
+</script>
+
+<style type="text/css">			
+			body{ font: 62.5% "Trebuchet MS", sans-serif; margin:0px;}
+			a img{border:none;}
+</style>	
+
+</head>
+
+<body>
+<noscript>learoyds.com: web design and online forums. 
+          <a href="Main Site">Go to learoyds.com Main Site.</a></noscript>
+
+<div style="width:960px; height:35px;display:block;  margin-left:auto; margin-right: auto; background:#62c6ec; color:#0073ea;">
+    <center><h1>Large Koalas to demonstrate carousel use.</h1></center>
+</div>
+<div id = "carousel1" style="width:960px; height:405px; margin-left:auto; margin-right: auto; background:#62c6ec; overflow:scroll;">            
+
+		<a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+        <a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+        <a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+        <a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+        <a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+		<a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+        <a  href="#"><img class = "cloudcarousel" src="resources/KoalaB.png" alt="Koala" title="Koala" /></a>
+ </div>
+ <div style="width:960px; height:55px; margin-left:auto; margin-right:auto; background:#62c6ec" >      
+               <div style="width:300px; height:55px; background:#62c6ec;padding-left:50px;color:#0073ea; margin-right:auto; margin-left:auto; font-size:12px;">
+        
+             <center><form action="http://192.168.1.250/websites.php" method="get">
+                      <input id="left-but"  type="button" value="View next picture" /> 
+                      <input id="backButton" type="submit" value="Back to main site"/> <!-- onclick="history.go(-1)"-->
+             </form></center>         
+               <center> Demo Pictures of the Koala Bear. </center>
+               </div>
+ </div>
+
+</body>
+
+</html>
