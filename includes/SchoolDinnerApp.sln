@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SchoolDinnerApp", "SchoolDinnerApp.phpproj", "{9E76A9BB-5D44-410C-93A3-BE6188BB330B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E76A9BB-5D44-410C-93A3-BE6188BB330B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E76A9BB-5D44-410C-93A3-BE6188BB330B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A582040-C9ED-4817-8ABE-92F90A566330}
+	EndGlobalSection
+EndGlobal

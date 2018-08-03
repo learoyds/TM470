@@ -1,0 +1,124 @@
+﻿body    {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:35px;
+	
+}
+#gateHeader    {
+	background-image:url('../resources/banner_bkgd.jpg');
+	height:130px;
+	
+}
+#gateLogo    {
+	background-image:url('../resources/logoWhite_0.png');
+	height:75px;
+	width:85px;
+	float:left;
+	margin-left:15px;
+	margin-top:5px;
+}
+#gateName    {
+	color:white;
+	font-family: sans-serif;
+	font-size:26px;
+	padding-left:125px;
+	padding-top:35px;
+}
+#gateWrapper    {
+	background-color:#B0DDED;
+	height:450px;
+}
+h1    {
+	font-family: sans-serif;
+	color:#0099CC;
+	padding:5px 5px 5px 5px;
+	width:850px;
+	font-size:1.5em;
+}
+h2    {
+	font-family: sans-serif;
+	color:#0099CC;
+	padding:5px 5px 5px 5px;
+	font-size:1.3em;
+}
+#gateFooter    {
+	background-color:#6A94C4;
+	height:100px;
+	font-family:sans-serif;
+	color:white;
+	font-size:16px;
+}
+#gateMain    {
+	height:250px;
+}	
+#gateCopyright    {
+	padding-left:15px;
+	padding-top:15px;
+}
+#gateButton    {
+
+	width:150px;
+	height:75px;
+	margin-left:250px;
+	display:inline;
+	float:left;
+}
+#gateButtonLink    {
+    width:200px;
+    height:85px;
+    display:block;
+	background:url('../resources/ButtonComputing3.png') no-repeat -5px -14px ;
+	text-indent: -9999px;
+}
+#gateButtonLink:hover    {
+	 width:200px;
+    height:85px;
+    display:block;
+	background-position: -5px -14px ;
+	text-indent: -9999px;
+} 
+
+#gateButtonLink:active    {
+	 width:200px;
+    height:85px;
+    display:block;
+	background-position: -5px -99px ;
+	text-indent: -9999px;
+	
+}
+#solButton    {
+
+	width:150px;
+	height:75px;
+	margin-right:250px;
+	display:inline;
+	float:right
+}
+#solButtonLink    {
+    width:200px;
+    height:85px;
+    display:block;
+	background:url('../resources/ButtonSolarPower3.png') no-repeat -5px -10px ;
+	text-indent: -9999px;
+}
+#solButtonLink:hover    {
+	 width:200px;
+    height:85px;
+    display:block;
+	background-position: -5px -10px ;
+	text-indent: -9999px;
+} 
+
+#solButtonLink:active    {
+	 width:200px;
+    height:85px;
+    display:block;
+	background-position: -5px -99px ;
+	text-indent: -9999px;
+	
+}
+#info {
+	height:40px;
+	margin-top:-30px;
+}
