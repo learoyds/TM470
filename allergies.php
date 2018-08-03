@@ -10,8 +10,8 @@
 <div class="content">
 	<center><h1>Allergies</h1></center>
    
-    <center><h2>Let us create you a bespoke web presence.</h2>
-    <h3>For a look at some examples click on the links below.</h3>
+    <center><h2>In this section meals can be managed for children with allergies or special requirements.</h2>
+    <h3>For specific advice / meal suggestions click on a link below.</h3>
     <span class="red">
     <a href="#" target="_blank" title="Gluten intollerence">Coeliac</a>
     <a href="#" target="_blank" title="Religeous restrictions in diet">Religeon</a>
