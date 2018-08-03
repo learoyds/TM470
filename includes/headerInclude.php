@@ -31,7 +31,14 @@
         echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus and Planning</a>';
 		}
         echo '  ';
-        echo '<a href="#" title="nutrition">Nutrition</a>';
+      if($pageName == "nutrition")
+      {
+        echo '<a href="nutrients.php" title="nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
+      } 
+       else 
+      {
+        echo '<a href="nutrients.php" title="nutrition" id="nutrition">Nutrition</a> ';
+      }
         echo '  ';
 
 		if($pageName == "ingredients")
