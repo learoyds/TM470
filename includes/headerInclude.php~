@@ -33,11 +33,11 @@
         echo '  ';
       if($pageName == "nutrition")
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
+        echo '<a href="nutrients.php" title="nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
       } 
        else 
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition">Nutrition</a> ';
+        echo '<a href="nutrients.php" title="nutrition" id="nutrition">Nutrition</a> ';
       }
         echo '  ';
 
