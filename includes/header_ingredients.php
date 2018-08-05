@@ -22,7 +22,7 @@
         echo '  ';
         if($pageName == "newIngredient")
 		{
-			echo '<a href="ngredientsAdd.php" title="Add an ingredient" id="addNew" style="background:#000;" >New Ingredient</a>';
+			echo '<a href="ingredientsAdd.php" title="Add an ingredient" id="addNew" style="background:#000;" >New Ingredient</a>';
 		}
 		else
         echo '<a href="ingredientsAdd.php" title="Add an Ingredient">New Ingredient</a>';
@@ -33,7 +33,7 @@
 		}
 		else
 		{
-        echo '<a href="dngredientsEdit.php" title="Edit an ingredient" id="editIngredient">Edit Ingredient</a>';
+        echo '<a href="ingredientsEdit.php" title="Edit an ingredient" id="editIngredient">Edit Ingredient</a>';
 		}
         echo '  ';
         
