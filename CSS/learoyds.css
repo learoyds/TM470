@@ -238,8 +238,30 @@ footer {
 	background:#000;
 }
 
+#mobileLinkBar a , #linkBar a {
+	display: none;
+}
+
+@media screen and (max-width: 767px){
+    #mobileLinkBar {
+         display: inline;
+    }
+    #linkBar {
+         display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    #linkBar {
+         display: block;
+    }
+    #mobileLinkBar {
+         display: none;
+    }
+}
+
+
 #linkBar a {
-	visibility:visible;
+	/*visibility:visible;*/
 	min-width:220px;
 	line-height:950%;
 	background-color:orange;
@@ -268,7 +290,7 @@ footer {
 }
 
 #mobileLinkBar a {
-	visibility:hidden;
+	/*visibility:visible;*/
 	padding-left: 1em;
 	padding-right: 1em;
 	/*padding-top: 0.25em;
@@ -335,7 +357,7 @@ footer {
 }
 
 #mobileLinkBar {
-	display:none;
+	/*display:none;*/
 	height:0px;
          background:#000;
          padding-top: 1em; 
