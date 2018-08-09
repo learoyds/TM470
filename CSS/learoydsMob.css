@@ -5,18 +5,18 @@
 }
 
 @media screen and (max-width: 767px){
-    #mobileLinkBar a {
-         display: block;
+    #mobileLinkBar {
+         display: inline;
     }
-    #linkBar a{
+    #linkBar {
          display: none;
     }
 }
 @media screen and (min-width: 768px) {
-    #linkBar a{
+    #linkBar {
          display: block;
     }
-    #mobileLinkBar a{
+    #mobileLinkBar {
          display: none;
     }
 }
