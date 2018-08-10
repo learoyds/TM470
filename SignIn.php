@@ -74,7 +74,7 @@ if(array_key_exists('submit',$_POST)){
 
 ?>
 
-                <p id='summary'>Site still under construction, please try again later...</p>
+                <p id='summary'>Site under construction, please try it out...</p>
             </article>
 
 <footer>
