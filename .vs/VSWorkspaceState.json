@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\includes"
+    "\\CSS",
+    "\\includes",
+    "\\JS"
   ],
+  "SelectedNode": "\\includes\\footerInclude.php",
   "PreviewInSolutionExplorer": false
 }
