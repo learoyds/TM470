@@ -146,6 +146,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 table#daily_table{
 	width: 90%;
 	font-size: 1.5em;
+	margin-left: 5%
 }
 
 table#daily_table, th, td {
@@ -160,6 +161,18 @@ th, td {
 th{
    text-align: left;
 }
+
+table#three_week_table{
+	width: 100%;
+	font-size: 1.5em;
+}
+
+table#three_week_table, th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+ 
 
 /* Footer */
 footer {

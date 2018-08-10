@@ -11,7 +11,7 @@
 <div class="content">
 		       <h1>This week's Menu</h1>
                
- <table style="width:100%;" id="daily_table"  >
+ <table id="daily_table"  >
       <tr>
            <th></th>
            <th>Main</th>
