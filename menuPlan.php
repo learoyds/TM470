@@ -18,5 +18,5 @@
         
 </div>
         <?php
-        include_once 'includes/footerInclude.php';
+        include_once 'includes/footer_menu.php';
         ?>

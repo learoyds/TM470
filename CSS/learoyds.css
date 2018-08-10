@@ -141,6 +141,26 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
 }
 
+/* tables*/
+
+table#daily_table{
+	width: 90%;
+	font-size: 1.5em;
+}
+
+table#daily_table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+   padding: 15px;
+ }
+ 
+th{
+   text-align: left;
+}
+
 /* Footer */
 footer {
     text-align: center;
