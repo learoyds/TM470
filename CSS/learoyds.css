@@ -145,7 +145,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 table#daily_table{
 	width: 90%;
-	font-size: 1.5em;
+	font-size: 120%;
 	margin-left: 5%
 }
 
@@ -155,16 +155,18 @@ table#daily_table, th, td {
 }
 
 th, td {
-   padding: 15px;
- }
+    padding: 15px 10px 15px 10px;
+    text-align: left;
+}
  
 th{
    text-align: left;
 }
 
-table#three_week_table{
-	width: 100%;
-	font-size: 1.5em;
+table#three_week_table {
+    width: 96%;
+    font-size: 100%;
+    margin-left: 2%
 }
 
 table#three_week_table, th, td{
@@ -271,9 +273,6 @@ footer {
 	background:#000;
 }
 
-#mobileLinkBar a , #linkBar a {
-	display: none;
-}
 
 @media screen and (max-width: 767px){
     #mobileLinkBar {
@@ -282,6 +281,13 @@ footer {
     #linkBar {
          display: none;
     }
+    .transDiv {
+        font-size: 0.65em;
+    }
+    .transDivThree {
+        font-size: 0.45em;
+    }
+
 }
 @media screen and (min-width: 768px) {
     #linkBar {

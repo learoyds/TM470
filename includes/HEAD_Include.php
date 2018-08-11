@@ -10,13 +10,14 @@ if ( (basename($_SERVER['PHP_SELF']) != 'SignIn.php') && (($_SESSION['username']
 else
 
 echo '<!DOCTYPE html>
-      <html>
+      <html lang="en">
       <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <link href="CSS/learoyds.css" rel="stylesheet" lang="text" xml:lang="text" title="css"/>
       <link href="CSS/learoydsMob.css" rel="stylesheet" lang="text" xml:lang="text" title="cssMob"/>
-      <link rel="shortcut icon" href="assets/favicon_copy.ico" /> 
-      <link rel="icon" type="image/png" href="assets/laptopIcon.png" />'
+      <link rel="shortcut icon" href="assets/HMPfavicon.ico" /> 
+      <link rel="icon" type="image/png" href="assets/HMPfavicon.ico" />'
 ?>
 

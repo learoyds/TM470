@@ -3,7 +3,7 @@
 		?>
         <title>School Dinner App</title>
         <?php
-		include_once 'includes/HEAD2_Include.php';
+		/*include_once 'includes/HEAD2_Include.php';*/
 		$pageName = "home";
         include_once 'includes/headerInclude.php';
 		?>

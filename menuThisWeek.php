@@ -10,6 +10,8 @@
 		?>
 <div class="content">
 		       <h1>This week's Menu</h1>
+
+    <div class="transDiv">
                
  <table id="daily_table"  >
       <tr>
@@ -19,31 +21,32 @@
       </tr>
       <tr>
            <th>Monday</th>
-           <th></th>      
-           <th></th>
+           <td>Fish and Chips</td>      
+           <td></td>
       </tr>
       <tr>
            <th>Tuesday</th>
-           <th></th>      
-           <th></th>
+           <td></td>      
+           <td></td>
       </tr>
       <tr>
            <th>Wednesday</th>
-           <th></th>      
-           <th></th>
+           <td></td>      
+           <td></td>
       </tr>
       <tr>
            <th>Thursday</th>
-           <th></th>      
-           <th></th>
+           <td></td>      
+           <td></td>
       </tr>
       <tr>
            <th>Friday</th>
-           <th></th>      
-           <th></th>
+           <td></td>      
+           <td></td>
       </tr>
- </table>             
-              
+ </table>   
+   </div>          
+             <br/> 
                                      
                <h2> <span class="red"> <a href="index.php">Back to the beginning</a> </span></h2>
         

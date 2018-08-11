@@ -10,6 +10,9 @@
 		?>
 <div class="content">
 		       <h1>Current menus covering 3 weeks (rotating)</h1>
+    
+   <div class="transDivThree">
+
 		       <table  id="three_week_table">
 		       
 		<tr>
@@ -28,7 +31,16 @@
            <th>Pudding</th>
       </tr>
       <tr>
-           <th>Monday</th>
+           <th>Mon</th>
+           <td>Fish and Chips</td>      
+           <td></td>
+           <td></td>      
+           <td></td>      
+           <td></td>
+           <td></td> 
+      </tr>
+      <tr>
+           <th>Tue</th>
            <td></td>      
            <td></td>
            <td></td>      
@@ -37,16 +49,7 @@
            <td></td> 
       </tr>
       <tr>
-           <th>Tuesday</th>
-           <td></td>      
-           <td></td>
-           <td></td>      
-           <td></td>      
-           <td></td>
-           <td></td> 
-      </tr>
-      <tr>
-           <th>Wednesday</th>
+           <th>Wed</th>
            <td></td>      
            <td></td>
            <td></td>      
@@ -55,7 +58,7 @@
            <td></td>
       </tr>
       <tr>
-           <th>Thursday</th>
+           <th>Thu</th>
            <td></td>      
            <td></td>
            <td></td>      
@@ -64,7 +67,7 @@
            <td></td>
       </tr>
       <tr>
-           <th>Friday</th>
+           <th>Fri</th>
            <td></td>      
            <td></td>
            <td></td>      
@@ -72,8 +75,10 @@
            <td></td>
            <td></td>
       </tr>
- </table>             
-              
+ </table> 
+   </div>            
+        
+<br/>      
                
             
                <h2> <span class="red"> <a href="index.phpcontactUs.php">Back to the beginning</a> now.</span> </h2>
