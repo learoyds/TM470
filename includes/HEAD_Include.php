@@ -18,6 +18,8 @@ echo '<!DOCTYPE html>
       <link href="CSS/learoyds.css" rel="stylesheet" lang="text" xml:lang="text" title="css"/>
       <link href="CSS/learoydsMob.css" rel="stylesheet" lang="text" xml:lang="text" title="cssMob"/>
       <link rel="shortcut icon" href="assets/HMPfavicon.ico" /> 
-      <link rel="icon" type="image/png" href="assets/HMPfavicon.ico" />'
+      <link rel="icon" type="image/png" href="assets/HMPfavicon.ico" />
+      <link rel="apple-touch-icon" href="assets/HMPfavicon.ico" />
+      <link rel="apple-touch-icon-precomposed" href="assets/HMPfavicon.ico" />'
 ?>
 
