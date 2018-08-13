@@ -6,7 +6,7 @@ Footer
          echo '<div class="footer">';
 
 		 echo '<div id="mobileLinkBar">';
-		echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
+		//echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
 
         echo '<center>';
 	
@@ -23,11 +23,11 @@ Footer
         echo '  ';
 		if($pageName == "Menus and Planning")
 		{
-			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#36f;" >Menus and Planning</a>';
+			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#36f;" >Menus</a>';
 		}
 		else
 		{
-        echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus and Planning</a>';
+        echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus</a>';
 		}
         echo '  ';
         echo '<a href="#" title="nutrition">Nutrition</a>';

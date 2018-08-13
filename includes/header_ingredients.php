@@ -17,7 +17,7 @@
 		}
 		else
 		{
-        echo '<a href="ingredients.php" title="Back" id="ingredients">Back</a>';
+        echo '<a href="index.php" title="Back" id="ingredients">Back</a>';
 		}
         echo '  ';
         if($pageName == "newIngredient")

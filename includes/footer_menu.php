@@ -2,7 +2,7 @@
          echo '<div class="footer">';
 
 		 echo '<div id="mobileLinkBar">';
-		echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
+		//echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
 
         echo '<center>';
         if($pageName == "menus")

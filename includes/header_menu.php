@@ -17,7 +17,7 @@
 		}
 		else
 		{
-        echo '<a href="menus.php" title="Back" id="menus">Back</a>';
+        echo '<a href="index.php" title="Back" id="menus">Back</a>';
 		}
         echo '  ';
         if($pageName == "thisWeek")

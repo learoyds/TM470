@@ -24,11 +24,11 @@
         echo '  ';
 		if($pageName == "Menus and Planning")
 		{
-			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#000;" >Menus and Planning</a>';
+			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#000;" >Menus</a>';
 		}
 		else
 		{
-        echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus and Planning</a>';
+        echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus</a>';
 		}
         echo '  ';
       if($pageName == "nutrition")
