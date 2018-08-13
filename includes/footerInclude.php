@@ -30,7 +30,14 @@ Footer
         echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus</a>';
 		}
         echo '  ';
-        echo '<a href="#" title="nutrition">Nutrition</a>';
+         if($pageName == "nutrition")
+      {
+        echo '<a href="nutrition.php" title="nutrition" id="nutrition" style = "background:#36f;">Nutrition</a> ';
+      } 
+       else 
+      {
+        echo '<a href="nutrition.php" title="nutrition" id="nutrition">Nutrition</a> ';
+      }
         echo '  ';
 
 		if($pageName == "ingredients")
