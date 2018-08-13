@@ -143,15 +143,19 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* tables*/
 
-table#daily_table{
+.menu_tables{
 	width: 90%;
 	font-size: 120%;
 	margin-left: 5%
 }
 
-table#daily_table, th, td {
+.menu_tables, th, td {
 	border: 1px solid white;
 	border-collapse: collapse;
+}
+
+.table_title{
+	color: #6F0;
 }
 
 th, td {
@@ -234,7 +238,7 @@ footer {
 
 #imageDiv{
 	visibility:visible;	
-    background-color:#000;
+    background-color:orange;
 
 }
 
@@ -335,8 +339,8 @@ footer {
 	/*padding-top: 0.25em;
 	padding-bottom: 0.25em;*/
 	line-height:200%;
-	background-color:orange;
-	color:#000;
+	background-color:black;
+	color:white;
 	text-decoration:none;
 	font-size:xx-large;
 	display:block;
@@ -344,6 +348,11 @@ footer {
 	margin:20px;
 	border-radius:15px;
 }
+
+
+    #mobileLinkBar a:hover {
+        background: #6F0;
+    }
 
 #mobileLinkBar a:hover{
 	background:#6F0;

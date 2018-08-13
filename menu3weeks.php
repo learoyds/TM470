@@ -9,79 +9,119 @@
 		include_once 'includes/header_menu.php';
 		?>
 <div class="content">
+
 		       <h1>Current menus covering 3 weeks (rotating)</h1>
     
    <div class="transDivThree">
-
-		       <table  id="three_week_table">
-		       
-		<tr>
-           <th></th>
-           <th colspan="2" class="3main">Week 1</th>      
-           <th colspan="2" class="3main">Week 2</th>
-           <th colspan="2" class="3main">Week 3</th>
-      </tr>       
+<table id="week_one_table" class="menu_tables" >
       <tr>
-           <td></td>
-           <th>Main</th>
-           <th>Pudding</th>
-           <th>Main</th>
-           <th>Pudding</th>
+           <th class="table_title">Week 1</th>
            <th>Main</th>
            <th>Pudding</th>
       </tr>
       <tr>
-           <th>Mon</th>
+           <th>Monday</th>
            <td>Fish and Chips</td>      
            <td></td>
-           <td></td>      
-           <td></td>      
-           <td></td>
-           <td></td> 
       </tr>
       <tr>
-           <th>Tue</th>
+           <th>Tuesday</th>
            <td></td>      
-           <td></td>
-           <td></td>      
-           <td></td>      
-           <td></td>
-           <td></td> 
-      </tr>
-      <tr>
-           <th>Wed</th>
-           <td></td>      
-           <td></td>
-           <td></td>      
-           <td></td>      
-           <td></td>
            <td></td>
       </tr>
       <tr>
-           <th>Thu</th>
+           <th>Wednesday</th>
            <td></td>      
-           <td></td>
-           <td></td>      
-           <td></td>      
-           <td></td>
            <td></td>
       </tr>
       <tr>
-           <th>Fri</th>
+           <th>Thursday</th>
            <td></td>      
            <td></td>
-           <td></td>      
+      </tr>
+      <tr>
+           <th>Friday</th>
            <td></td>      
            <td></td>
+      </tr>
+ </table>   
+ 
+<br> 
+ 
+ <table id="week_two_table" class="menu_tables" >
+      <tr>
+           <th class="table_title">Week 2</th>
+           <th>Main</th>
+           <th>Pudding</th>
+      </tr>
+      <tr>
+           <th>Monday</th>
+           <td>Shepherds' Pie</td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Tuesday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Wednesday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Thursday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Friday</th>
+           <td></td>      
            <td></td>
       </tr>
  </table> 
+ 
+<br> 
+  
+ 
+ <table id="week_three_table" class="menu_tables" >
+      <tr>
+           <th class="table_title">Week 3</th>
+           <th>Main</th>
+           <th>Pudding</th>
+      </tr>
+      <tr>
+           <th>Monday</th>
+           <td>Lasagne</td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Tuesday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Wednesday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Thursday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+      <tr>
+           <th>Friday</th>
+           <td></td>      
+           <td></td>
+      </tr>
+ </table>   
    </div>            
         
 <br/>      
                
             
-               <h2> <span class="red"> <a href="index.phpcontactUs.php">Back to the beginning</a> now.</span> </h2>
+               <h2> <span class="red"> <a href="index.php">Back to the beginning</a></span> </h2>
         
 </div>
         <?php

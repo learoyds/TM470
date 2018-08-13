@@ -13,9 +13,9 @@
 
     <div class="transDiv">
                
- <table id="daily_table"  >
+ <table id="daily_table" class="menu_tables" >
       <tr>
-           <th></th>
+           <th class="table_title">This Week</th>
            <th>Main</th>
            <th>Pudding</th>
       </tr>

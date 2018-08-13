@@ -9,7 +9,7 @@
 		?>
 <div class="content">
   
-   <h2>Choose an option.</h2>
+   <h1>Home</h1>
    
    
  </div>
