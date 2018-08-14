@@ -291,8 +291,11 @@ footer {
     .transDivThree {
         font-size: 0.45em;
     }
-
+    .content h1 {
+    	font-size: 2em;
+    }
 }
+
 @media screen and (min-width: 768px) {
     #linkBar {
          display: block;
