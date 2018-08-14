@@ -20,8 +20,17 @@
         echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
 		}
         echo '  ';
-        echo '<a href="#" title="Events">Upcoming Events</a>';
+        
+      if($pageName == "events") 
+      {
+        echo '<a href="events.php" title="upcoming events" id = "events" style="background:#000;" >Events</a>';
+      }
+      else 
+      {
+        echo '<a href="events.php" title="upcoming events" id = "events">Events</a>';
+      }
         echo '  ';
+        
 		if($pageName == "Menus and Planning")
 		{
 			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#000;" >Menus</a>';
@@ -31,13 +40,14 @@
         echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus</a>';
 		}
         echo '  ';
+        
       if($pageName == "nutrition")
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
+        echo '<a href="nutrition.php" title="manage nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
       } 
        else 
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition">Nutrition</a> ';
+        echo '<a href="nutrition.php" title="manage nutrition" id="nutrition">Nutrition</a> ';
       }
         echo '  ';
 
@@ -50,15 +60,17 @@
 			echo '<a href="ingredients.php" title="Add or Edit an Ingredient and its Nutrients" id="business" >Ingredients</a>';
 		}
         echo '  ';
+        
 		if($pageName == "overtime")
 		{
-			echo '<a href="overtime.php" title="~Overtime" id="overtime" style="background:#000;" >Overtime</a>';
+			echo '<a href="overtime.php" title="Overtime" id="overtime" style="background:#000;" >Overtime</a>';
 		}
 		else
 		{
 			echo '<a href="overtime.php" title="Overtime" id="today">Overtime</a>';
 		}
 		echo '  ';
+		
 		if($pageName == "allergies")
 		{
 			echo '<a href="allergies.php" title="allergies" id="allergies" style="background:#000;" >Allergies</a>';
@@ -68,6 +80,7 @@
         echo '<a href="allergies.php" title="allergies" id="websites">Allergies</a>';
 		}
         echo '  ';
+        
 		if($pageName == "suppliers")
 		{
 			echo '<a href="suppliers.php" title="suppliers" id="suppliers" style="background:#000;" >Suppliers</a>';

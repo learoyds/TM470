@@ -19,8 +19,17 @@ Footer
         echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
 		}
         echo '  ';
-        echo '<a href="#" title="Events">Upcoming Events</a>';
+        
+         if($pageName == "events")
+      {
+        echo '<a href="events.php" title="events" id="events" style = "background:##36f;">Events</a> ';
+      } 
+       else 
+      {
+        echo '<a href="events.php" title="events" id="events">Events</a> ';
+      }
         echo '  ';
+
 		if($pageName == "Menus and Planning")
 		{
 			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#36f;" >Menus</a>';
@@ -51,7 +60,7 @@ Footer
         echo '  ';
 		if($pageName == "overtime")
 		{
-			echo '<a href="overtime.php" title="~Overtime" id="overtime" style="background:#36f;" >Overtime</a>';
+			echo '<a href="overtime.php" title="Overtime" id="overtime" style="background:#36f;" >Overtime</a>';
 		}
 		else
 		{
