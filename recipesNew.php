@@ -11,24 +11,12 @@
 <div class="content">
 		       <h1>New Recipe</h1>
 
-    <div class="transDiv">
-               
-           <form id='recipes_form' action='recipesNew.php' method='post'>
+              <div>
 
-
-					<div>
-					     </br>
-					     <input type='text' list="recipe_ingredients" id='new_recipe_name' placeholder='Recipe Name' name='Recipe_name' pattern="" autocomplete="off"/>
-						 </br></br>
-					     <input type='text' list="recipe_ingredients" id='recipes_drop' placeholder='Ingredient' name="Ingredient" pattern="" autocomplete="off"/>
-						 </br></br>
-						 <button type='submit' value='Run' name='submit'>Submit</button>
-				    </div>
-					    
- </form>
-          
-
-   </div>          
+    Add a new recipe below
+				
+    
+    </div>          
              <br/> 
                                      
                <h2> <span class="red"> <a href="index.php">Back to the beginning</a> </span></h2>

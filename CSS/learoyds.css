@@ -161,6 +161,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 th, td {
     padding: 15px 10px 15px 10px;
     text-align: left;
+    color:white;
 }
  
 th{

@@ -11,7 +11,7 @@
 <div class="content">
 		       <h1>Edit a recipe</h1>
 
-    <div class="transDiv">
+    <div>
                
 			   Please choose a recipe to edit
 
