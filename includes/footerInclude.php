@@ -20,13 +20,13 @@ Footer
 		}
         echo '  ';
         
-         if($pageName == "events")
+      if($pageName == "recipes") 
       {
-        echo '<a href="events.php" title="events" id="events" style = "background:##36f;">Events</a> ';
-      } 
-       else 
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes" style="background:#36f;" >Recipes</a>';
+      }
+      else 
       {
-        echo '<a href="events.php" title="events" id="events">Events</a> ';
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes">Recipes</a>';
       }
         echo '  ';
 

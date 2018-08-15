@@ -21,13 +21,13 @@
 		}
         echo '  ';
         
-      if($pageName == "events") 
+      if($pageName == "recipes") 
       {
-        echo '<a href="events.php" title="upcoming events" id = "events" style="background:#000;" >Events</a>';
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes" style="background:#000;" >Recipes</a>';
       }
       else 
       {
-        echo '<a href="events.php" title="upcoming events" id = "events">Events</a>';
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes">Recipes</a>';
       }
         echo '  ';
         
