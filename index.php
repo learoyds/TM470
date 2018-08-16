@@ -12,9 +12,10 @@
    <h1>Home</h1>
    
    <h2>Bookmark this to place an app icon on your mobile device</h2>
-   
+     <?php include_once 'requestDB.php';?>
    
  </div>
+
         <?php
         include_once 'includes/footerInclude.php';
         ?>
