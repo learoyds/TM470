@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+<th colspan="2">WebDAV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th align="center">Date</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Quantity</th>
+<th>Megabytes</th><th>Requests</th>
+</tr>
+<tr>
+<td>2017-07-31</td>
+<td align="right">1.12</td><td align="right">101</td>
+<td align=right>1.122</td><td align=right>101</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-31 1.122 101 1.122 101 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-30</td>
+<td align="right">0.49</td><td align="right">88</td>
+<td align=right>0.492</td><td align=right>88</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-30 0.492 88 0.492 88 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-29</td>
+<td align="right">0.86</td><td align="right">101</td>
+<td align=right>0.863</td><td align=right>101</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-29 0.863 101 0.863 101 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-28</td>
+<td align="right">2.98</td><td align="right">341</td>
+<td align=right>2.984</td><td align=right>341</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-28 2.984 341 2.984 341 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-27</td>
+<td align="right">0.85</td><td align="right">94</td>
+<td align=right>0.850</td><td align=right>94</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-27 0.850 94 0.850 94 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-26</td>
+<td align="right">0.40</td><td align="right">104</td>
+<td align=right>0.396</td><td align=right>104</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-26 0.396 104 0.396 104 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-25</td>
+<td align="right">0.47</td><td align="right">57</td>
+<td align=right>0.470</td><td align=right>57</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-25 0.470 57 0.470 57 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-24</td>
+<td align="right">0.37</td><td align="right">80</td>
+<td align=right>0.369</td><td align=right>80</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-24 0.369 80 0.369 80 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-23</td>
+<td align="right">0.80</td><td align="right">84</td>
+<td align=right>0.796</td><td align=right>84</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-23 0.796 84 0.796 84 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-22</td>
+<td align="right">0.85</td><td align="right">145</td>
+<td align=right>0.849</td><td align=right>145</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-22 0.849 145 0.849 145 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-21</td>
+<td align="right">0.48</td><td align="right">79</td>
+<td align=right>0.482</td><td align=right>79</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-21 0.482 79 0.482 79 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-20</td>
+<td align="right">7.90</td><td align="right">197</td>
+<td align=right>7.903</td><td align=right>197</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-20 7.903 197 7.903 197 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-19</td>
+<td align="right">15.38</td><td align="right">281</td>
+<td align=right>15.376</td><td align=right>281</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-19 15.376 281 15.376 281 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-18</td>
+<td align="right">22.44</td><td align="right">617</td>
+<td align=right>22.437</td><td align=right>617</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-18 22.437 617 22.437 617 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-17</td>
+<td align="right">0.35</td><td align="right">57</td>
+<td align=right>0.352</td><td align=right>57</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-17 0.352 57 0.352 57 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-16</td>
+<td align="right">0.83</td><td align="right">83</td>
+<td align=right>0.834</td><td align=right>83</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-16 0.834 83 0.834 83 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-15</td>
+<td align="right">1.62</td><td align="right">198</td>
+<td align=right>1.616</td><td align=right>198</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-15 1.616 198 1.616 198 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-14</td>
+<td align="right">1.28</td><td align="right">139</td>
+<td align=right>1.285</td><td align=right>139</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-14 1.285 139 1.285 139 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-13</td>
+<td align="right">0.96</td><td align="right">123</td>
+<td align=right>0.963</td><td align=right>123</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-13 0.963 123 0.963 123 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-12</td>
+<td align="right">2.89</td><td align="right">332</td>
+<td align=right>2.888</td><td align=right>332</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-12 2.888 332 2.888 332 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-11</td>
+<td align="right">0.54</td><td align="right">73</td>
+<td align=right>0.538</td><td align=right>73</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-11 0.538 73 0.538 73 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-10</td>
+<td align="right">1.09</td><td align="right">117</td>
+<td align=right>1.091</td><td align=right>117</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-10 1.091 117 1.091 117 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-09</td>
+<td align="right">0.59</td><td align="right">69</td>
+<td align=right>0.591</td><td align=right>69</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-09 0.591 69 0.591 69 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-08</td>
+<td align="right">0.72</td><td align="right">100</td>
+<td align=right>0.724</td><td align=right>100</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-08 0.724 100 0.724 100 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-07</td>
+<td align="right">0.52</td><td align="right">74</td>
+<td align=right>0.521</td><td align=right>74</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-07 0.521 74 0.521 74 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-06</td>
+<td align="right">0.72</td><td align="right">100</td>
+<td align=right>0.717</td><td align=right>100</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-06 0.717 100 0.717 100 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-05</td>
+<td align="right">0.92</td><td align="right">134</td>
+<td align=right>0.924</td><td align=right>134</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-05 0.924 134 0.924 134 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-04</td>
+<td align="right">0.61</td><td align="right">73</td>
+<td align=right>0.614</td><td align=right>73</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-04 0.614 73 0.614 73 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-03</td>
+<td align="right">0.86</td><td align="right">112</td>
+<td align=right>0.863</td><td align=right>112</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-03 0.863 112 0.863 112 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-02</td>
+<td align="right">1.26</td><td align="right">169</td>
+<td align=right>1.261</td><td align=right>169</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-02 1.261 169 1.261 169 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-07-01</td>
+<td align="right">2.17</td><td align="right">267</td>
+<td align=right>2.166</td><td align=right>267</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-07-01 2.166 267 2.166 267 0.000 0 0.000 0 0.000 0 -->
+</tbody>
+</table>
+
+</body>
+</html>

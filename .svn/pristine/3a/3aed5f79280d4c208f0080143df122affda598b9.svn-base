@@ -1,0 +1,45 @@
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family: Arial, Helvetica; 
+    background-color: #e0e0e0;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+	text-align: center;
+}
+
+button { border: 1px solid #999; color: #555; background-color: #F4F4FA; padding: 0 10px; }
+button:hover { background-color: white; }
+input[type=text], input:not([type]), input[type=password] { padding: 0 10px; text-overflow: ellipsis; }
+
+
+/* Main page structure and heading style */
+#landBody { text-align: center; float:center; max-width: 800px; margin: auto; padding: 30px 10px 10px 10px; }
+article { background-color: white; box-shadow: 0 0 12px rgba(0, 0, 0, 0.75); border-radius: 10px; }
+header { background-color: black; padding: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+header h1 { text-transform: uppercase; font-weight: normal; color: orange; font-size: 20px; margin: 4px }
+header h2 { text-transform: uppercase; font-weight: normal; color: white; font-size: 14px; margin: 4px }
+#summary { text-align: center; padding: 8px 0; }
+
+/* "Sign in" form */
+#sign-in {/* height: 26px;*/ margin: 8px 0 5px 0; font-size: 1em }
+#sign-in div { overflow: hidden; }
+#sign-in button { margin-left: 10px; padding: 2 10px;*height: 26px; border-radius: 4px; background-color: orange; color: black; font-size: 1em;}
+#sign-in button:hover { background-color: white; }
+/*#sign-in input:invalid { border: 2px dashed red; }*/
+/*#sign-in input:valid { border: 2px solid black; }*/
+#sign-in-name { height: 26px; border: 1px solid #999; font-size: 1em; border-radius: 4px; }
+#sign-in-password { height: 26px; border: 1px solid #999; font-size: 1em; border-radius: 4px; }
+
+/* Footer */
+footer { text-align: center; font-size: 0.8em; margin-top: 20px; }
+footer a { color: #666; display: block; }
+#errors { color: red; font-weight: bold; padding: 8px; display: inline-block; text-align: left; }

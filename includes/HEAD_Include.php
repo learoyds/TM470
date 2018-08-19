@@ -1,4 +1,4 @@
-<img src="laptopIcon.png" alt="" /><img src="laptopIcon.png" alt="" /><?php
+<?php
 session_start();
 $_SESSION['username'];
 $_SESSION['password'];
@@ -14,12 +14,9 @@ echo '<!DOCTYPE html>
       <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
       <link href="CSS/learoyds.css" rel="stylesheet" lang="text" xml:lang="text" title="css"/>
       <link href="CSS/learoydsMob.css" rel="stylesheet" lang="text" xml:lang="text" title="cssMob"/>
       <link rel="shortcut icon" href="assets/HMPfavicon.ico" /> 
-      <link rel="icon" type="image/png" href="assets/HMPfavicon.ico" />
-      <link rel="apple-touch-icon" href="assets/HMP.png" />
-      <link rel="apple-touch-icon-precomposed" href="assets/HMP.png" />'
+      <link rel="icon" type="image/png" href="assets/HMPfavicon.ico" />'
 ?>
 

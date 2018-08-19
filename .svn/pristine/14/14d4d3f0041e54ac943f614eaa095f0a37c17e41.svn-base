@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+<th colspan="2">WebDAV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th align="center">Date</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Quantity</th>
+<th>Megabytes</th><th>Requests</th>
+</tr>
+<tr>
+<td>2017-10-31</td>
+<td align="right">0.88</td><td align="right">156</td>
+<td align=right>0.876</td><td align=right>156</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-31 0.876 156 0.876 156 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-30</td>
+<td align="right">1.17</td><td align="right">156</td>
+<td align=right>1.170</td><td align=right>156</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-30 1.170 156 1.170 156 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-29</td>
+<td align="right">0.31</td><td align="right">58</td>
+<td align=right>0.307</td><td align=right>58</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-29 0.307 58 0.307 58 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-28</td>
+<td align="right">0.84</td><td align="right">108</td>
+<td align=right>0.836</td><td align=right>108</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-28 0.836 108 0.836 108 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-27</td>
+<td align="right">0.57</td><td align="right">75</td>
+<td align=right>0.575</td><td align=right>75</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-27 0.575 75 0.575 75 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-26</td>
+<td align="right">0.47</td><td align="right">76</td>
+<td align=right>0.472</td><td align=right>76</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-26 0.472 76 0.472 76 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-25</td>
+<td align="right">0.63</td><td align="right">82</td>
+<td align=right>0.633</td><td align=right>82</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-25 0.633 82 0.633 82 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-24</td>
+<td align="right">0.58</td><td align="right">73</td>
+<td align=right>0.583</td><td align=right>73</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-24 0.583 73 0.583 73 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-23</td>
+<td align="right">0.54</td><td align="right">53</td>
+<td align=right>0.536</td><td align=right>53</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-23 0.536 53 0.536 53 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-22</td>
+<td align="right">0.60</td><td align="right">77</td>
+<td align=right>0.601</td><td align=right>77</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-22 0.601 77 0.601 77 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-21</td>
+<td align="right">0.78</td><td align="right">79</td>
+<td align=right>0.781</td><td align=right>79</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-21 0.781 79 0.781 79 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-20</td>
+<td align="right">0.55</td><td align="right">61</td>
+<td align=right>0.553</td><td align=right>61</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-20 0.553 61 0.553 61 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-19</td>
+<td align="right">2.13</td><td align="right">157</td>
+<td align=right>2.130</td><td align=right>157</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-19 2.130 157 2.130 157 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-18</td>
+<td align="right">0.65</td><td align="right">81</td>
+<td align=right>0.654</td><td align=right>81</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-18 0.654 81 0.654 81 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-17</td>
+<td align="right">0.84</td><td align="right">155</td>
+<td align=right>0.837</td><td align=right>155</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-17 0.837 155 0.837 155 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-16</td>
+<td align="right">0.84</td><td align="right">73</td>
+<td align=right>0.843</td><td align=right>73</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-16 0.843 73 0.843 73 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-15</td>
+<td align="right">1.31</td><td align="right">154</td>
+<td align=right>1.309</td><td align=right>154</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-15 1.309 154 1.309 154 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-14</td>
+<td align="right">0.83</td><td align="right">107</td>
+<td align=right>0.831</td><td align=right>107</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-14 0.831 107 0.831 107 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-13</td>
+<td align="right">1.02</td><td align="right">68</td>
+<td align=right>1.021</td><td align=right>68</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-13 1.021 68 1.021 68 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-12</td>
+<td align="right">0.58</td><td align="right">95</td>
+<td align=right>0.580</td><td align=right>95</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-12 0.580 95 0.580 95 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-11</td>
+<td align="right">0.55</td><td align="right">71</td>
+<td align=right>0.554</td><td align=right>71</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-11 0.554 71 0.554 71 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-10</td>
+<td align="right">0.72</td><td align="right">90</td>
+<td align=right>0.721</td><td align=right>90</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-10 0.721 90 0.721 90 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-09</td>
+<td align="right">1.28</td><td align="right">165</td>
+<td align=right>1.281</td><td align=right>165</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-09 1.281 165 1.281 165 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-08</td>
+<td align="right">2.24</td><td align="right">207</td>
+<td align=right>2.239</td><td align=right>207</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-08 2.239 207 2.239 207 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-07</td>
+<td align="right">1.27</td><td align="right">167</td>
+<td align=right>1.271</td><td align=right>167</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-07 1.271 167 1.271 167 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-06</td>
+<td align="right">0.52</td><td align="right">71</td>
+<td align=right>0.522</td><td align=right>71</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-06 0.522 71 0.522 71 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-05</td>
+<td align="right">0.83</td><td align="right">79</td>
+<td align=right>0.828</td><td align=right>79</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-05 0.828 79 0.828 79 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-04</td>
+<td align="right">0.92</td><td align="right">115</td>
+<td align=right>0.918</td><td align=right>115</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-04 0.918 115 0.918 115 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-03</td>
+<td align="right">1.77</td><td align="right">179</td>
+<td align=right>1.771</td><td align=right>179</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-03 1.771 179 1.771 179 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-02</td>
+<td align="right">2.13</td><td align="right">261</td>
+<td align=right>2.127</td><td align=right>261</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-02 2.127 261 2.127 261 0.000 0 0.000 0 0.000 0 -->
+<tr>
+<td>2017-10-01</td>
+<td align="right">1.02</td><td align="right">115</td>
+<td align=right>1.024</td><td align=right>115</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+<td align=right>0.000</td><td align=right>0</td>
+</tr>
+<!-- 2017-10-01 1.024 115 1.024 115 0.000 0 0.000 0 0.000 0 -->
+</tbody>
+</table>
+
+</body>
+</html>

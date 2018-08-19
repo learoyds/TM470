@@ -40,10 +40,10 @@
         
            echo '<br />';
          echo '<img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to the school dinner app; please click on the appropriate link " /><p>&copy; Chris Learoyd 2018.<a href= "mailto:cjl442@my.open.ac.uk" title="Email me for more info">Email me!</a> </p>';
-		 echo '<p><a href="http://validator.w3.org/check?uri=referer">';
-		 echo '<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a> ';
-		 echo '<a href="http://jigsaw.w3.org/css-validator/check/referer">';
-         echo '<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a></p>';
+		 echo '<p><a href="https://validator.w3.org/check?uri=referer">';
+		 echo '<img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a> ';
+		 echo '<a href="https://jigsaw.w3.org/css-validator/check/referer">';
+         echo '<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a></p>';
 		 echo '<!-- end .footer --></div>';
          echo '<!-- end .container --></div>';
 		 echo '</body>

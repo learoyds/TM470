@@ -1,0 +1,55 @@
+<?php
+
+$username = "chrislearoyd";
+$password = "je11y8e@N";
+$server = "localhost";
+$database = "school_app";
+
+$con = mysqli_connect($server, $username, $password, $database);
+//if ($con->connect_error) {
+//     die("Connection failed: " . $con->connect_error);
+//}else{
+//	echo "OK, good job! you connected to the database!!";
+
+$sql = 'SELECT monday_main, monday_pudding, tuesday_main, tuesday_pudding,
+ wednesday_main, wednesday_pudding, thursday_main, thursday_pudding,
+ friday_main, friday_pudding FROM weekly WHERE is_this_week = true';
+$result = $con->query($sql);
+
+   if ($result != false){
+ while($row = $result->fetch_assoc()){
+  
+  echo "<table id='daily_table' class='menu_tables' >
+      <tr>
+           <th class='table_title'>This Week</th>
+           <th>Main</th>
+           <th>Pudding</th>
+      </tr> 
+      <tr>
+           <th>Monday</th>";
+  echo         "<td>" . $row['monday_main'] . "</td>";      
+  echo         "<td>" . $row['monday_pudding'] . "</td>";
+  echo   "</tr>
+      <tr>      <th>Tuesday</th>";
+  echo         "<td>" . $row['tuesday_main'] . "</td>";    
+  echo         "<td>" . $row['tuesday_pudding'] . "</td>";
+ echo   "</tr>
+      <tr>      <th>Wednesday</th>";
+  echo         "<td>" . $row['wednesday_main'] . "</td>";    
+  echo         "<td>" . $row['wednesday_pudding'] . "</td>";
+  echo   "</tr>
+      <tr>      <th>Thursday</th>";
+  echo         "<td>" . $row['thursday_main'] . "</td>";    
+  echo         "<td>" . $row['thursday_pudding'] . "</td>";
+   echo   "</tr>
+      <tr>      <th>Friday</th>";
+  echo         "<td>" . $row['friday_main'] . "</td>";    
+  echo         "<td>" . $row['friday_pudding'] . "</td>";
+ echo     "</tr>
+ </table>";   
+}
+}
+
+$con->close();
+
+?>
