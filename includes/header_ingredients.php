@@ -25,7 +25,9 @@
 			echo '<a href="ingredientsAdd.php" title="Add an ingredient" id="addNew" style="background:#000;" >New Ingredient</a>';
 		}
 		else
+        {
         echo '<a href="ingredientsAdd.php" title="Add an Ingredient">New Ingredient</a>';
+        }
         echo '  ';
 		if($pageName == "editIngredient")
 		{

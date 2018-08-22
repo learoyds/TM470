@@ -21,21 +21,24 @@
 		else
         echo '<a href="menuThisWeek.php" title="This weeks menu">This week</a>';
         echo '  ';
+		if($pageName == "3weeks")
+		{
+			echo '<a href="menu3weeks.php" title="This term\'s menu" id="3weeks" style="background:#000;" >This term</a>';
+		}
+		else
+        {
+        echo '<a href="menu3weeks.php" title="This term\'s menu" id="websites">This term</a>';
+        }
+        echo '  ';
+
 		if($pageName == "Planning")
 		{
-			echo '<a href="menuPlan.php" title="Plan a menu" id="planning" style="background:#000;" >Plan</a>';
+			echo '<a href="menuPlan.php" title="Plan a menu" id="planning" style="background:#000;" >New menu</a>';
 		}
 		else
 		{
-        echo '<a href="menuPlan.php" title="Plan a menu" id="websites">Plan</a>';
+        echo '<a href="menuPlan.php" title="Plan a menu" id="websites">New menu</a>';
 		}
-        echo '  ';
-        if($pageName == "3weeks")
-		{
-			echo '<a href="menu3weeks.php" title="View 3 weekly menu" id="3weeks" style="background:#000;" >Plan</a>';
-		}
-		else
-        echo '<a href="menu3weeks.php" title="View 3 weekly menu" id="websites">3 Weeks</a>';
         echo '  ';
 
         echo '</center>';

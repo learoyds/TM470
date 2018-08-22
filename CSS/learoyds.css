@@ -150,6 +150,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 
 .menu_tables, th, td {
+    text-wrap: normal;
 	border: 1px solid white;
 	border-collapse: collapse;
 }
@@ -159,6 +160,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 
 th, td {
+    width: 30%;
     padding: 15px 10px 15px 10px;
     text-align: left;
     color:white;
@@ -279,21 +281,25 @@ footer {
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     #mobileLinkBar {
-         display: inline;
+        display: inline;
     }
+
     #linkBar {
-         display: none;
+        display: none;
     }
-    .transDiv {
+
+    /*.transDiv {
         font-size: 0.65em;
-    }
-    .transDivThree {
-        font-size: 0.45em;
-    }
+    }*/
+
+    /*.transDivThree {
+        font-size: 0.65em;
+    }*/
+
     .content h1 {
-    	font-size: 2em;
+        font-size: 2em;
     }
 }
 
@@ -304,6 +310,7 @@ footer {
     #mobileLinkBar {
          display: none;
     }
+    
 }
 
 

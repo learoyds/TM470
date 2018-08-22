@@ -13,7 +13,16 @@
 		       <h1>Current menus covering 3 weeks (rotating)</h1>
     
    <div class="transDivThree">
-<table id="week_one_table" class="menu_tables" >
+
+    <?php  //include tocreate database connection
+
+ include_once  'includes/requestDB.php'; ?>
+
+ <?php  //include to query the weekly database table
+
+ include_once 'includes/sql_menu_3_weeks.php';  ?>
+
+<!--<table id="week_one_table" class="menu_tables" >
       <tr>
            <th class="table_title">Week 1</th>
            <th>Main</th>
@@ -115,7 +124,7 @@
            <td></td>      
            <td></td>
       </tr>
- </table>   
+ </table> -->  
    </div>            
         
 <br/>      

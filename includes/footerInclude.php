@@ -9,81 +9,84 @@ Footer
 		//echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
 
         echo '<center>';
-	
-		if($pageName == "home")
+
+        if($pageName == "home")
 		{
-			echo '<a href="index.php" title="Back to the main page" id="home" style="background:#36f;" >Back</a>';
+			echo '<a href="index.php" title="Back to the main page" id="home" style="background:#000;" >Back</a>';
 		}
 		else
 		{
         echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
 		}
         echo '  ';
-        
-      if($pageName == "recipes") 
-      {
-        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes" style="background:#36f;" >Recipes</a>';
-      }
-      else 
-      {
-        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes">Recipes</a>';
-      }
-        echo '  ';
-
+	
 		if($pageName == "Menus and Planning")
 		{
-			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#36f;" >Menus</a>';
+			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#000;" >Menus</a>';
 		}
 		else
 		{
         echo '<a href="menus.php" title="Menus and meal planning" id="menus">Menus</a>';
 		}
         echo '  ';
-         if($pageName == "nutrition")
+
+      if($pageName == "recipes") 
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition" style = "background:#36f;">Nutrition</a> ';
-      } 
-       else 
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes" style="background:#000;" >Recipes</a>';
+      }
+      else 
       {
-        echo '<a href="nutrition.php" title="nutrition" id="nutrition">Nutrition</a> ';
+        echo '<a href="recipes.php" title="Add or edit a recipe" id = "recipes">Recipes</a>';
       }
         echo '  ';
-
+        
 		if($pageName == "ingredients")
 		{
-			echo '<a href="ingredients.php" title="Add or edit an ingredient and its nutrients" id="business" style="background:#36f;" >Ingredients</a>';
+			echo '<a href="ingredients.php" title="Add or edit an ingredient and its nutrients" id="business" style="background:#000;" >Ingredients</a>';
 		}
 		else
 		{
 			echo '<a href="ingredients.php" title="Add or Edit an Ingredient and its Nutrients" id="business" >Ingredients</a>';
 		}
         echo '  ';
-		if($pageName == "overtime")
+
+     /*   if($pageName == "allergies")
 		{
-			echo '<a href="overtime.php" title="Overtime" id="overtime" style="background:#36f;" >Overtime</a>';
-		}
-		else
-		{
-			echo '<a href="overtime.php" title="Overtime" id="today">Overtime</a>';
-		}
-		echo '  ';
-		if($pageName == "allergies")
-		{
-			echo '<a href="allergies.php" title="allergies" id="allergies" style="background:#36f;" >Allergies</a>';
+			echo '<a href="allergies.php" title="allergies" id="allergies" style="background:#000;" >Allergies</a>';
 		}
 		else
 		{
         echo '<a href="allergies.php" title="allergies" id="websites">Allergies</a>';
 		}
         echo '  ';
+      if($pageName == "nutrition")
+      {
+        echo '<a href="nutrition.php" title="manage nutrition" id="nutrition" style = "background:#000;">Nutrition</a> ';
+      } 
+       else 
+      {
+        echo '<a href="nutrition.php" title="manage nutrition" id="nutrition">Nutrition</a> ';
+      }
+        echo '  ';
+
 		if($pageName == "suppliers")
 		{
-			echo '<a href="suppliers.php" title="suppliers" id="suppliers" style="background:#36f;" >Suppliers</a>';
+			echo '<a href="suppliers.php" title="suppliers" id="suppliers" style="background:#000;" >Suppliers</a>';
 		}
 		else
 		{
             echo '<a href="suppliers.php" title="Suppliers" id="suppliers">Suppliers</a>';
 		}
+        echo '  ';
+
+		if($pageName == "overtime")
+		{
+			echo '<a href="overtime.php" title="Overtime" id="overtime" style="background:#000;" >Overtime</a>';
+		}
+		else
+		{
+			echo '<a href="overtime.php" title="Overtime" id="today">Overtime</a>';
+		} */
         echo '</center>';
         echo '<center><span class="motto">Hover over a link (above) for more info.</span></center>';
          
