@@ -1,53 +1,39 @@
-<?php   
-echo '<div class="footer">';
+ <?php
+         echo '<div class="footer">';
 
 		 echo '<div id="mobileLinkBar">';
 		//echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
 
         echo '<center>';
-
+        if($pageName == "ingredients")
+		{
+			echo '<a href="index.php" title="Back to the main page" id="home";" >Back</a>';
+		}
+		else
+		{
+        echo '<a href="index.php" title="Back" id="ingredients">Back</a>';
+		}
+        echo '  ';
+        if($pageName == "newIngredient")
+		{
+			echo '<a href="ingredientsAdd.php" title="Add an ingredient" id="addNew" style="background:orange; color:orange;" >New Ingredient</a>';
+		}
+		else
+        echo '<a href="ingredientsAdd.php" title="Add an Ingredient">New Ingredient</a>';
+        echo '  ';
+		if($pageName == "editIngredient")
+		{
+			echo '<a href="ingredientsEdit.php" title="Edit an ingredient" id="editIngredient" style="background:orange; color:orange;" >Edit Ingredient</a>';
+		}
+		else
+		{
+        echo '<a href="ingredientsEdit.php" title="Edit an ingredient" id="editIngredient">Edit Ingredient</a>';
+		}
+        echo '  ';
         
-        
-        if($pageName == "recipes")
-		{
-		echo '<a href="index.php" title="Back to the main page" id="home" >Back</a>';
-		}
-		else
-		{
-        echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
-		}
+        echo '<a href="#" title="" id="websites"></a>';
         echo '  ';
 
-        if($pageName == "recipesToday")
-		{
-			echo '<a href="recipesToday.php" title="Todays recipe" id="recipesToday" style="background:orange; color:orange;" >Todays recipe</a>';
-		}
-		else
-        {
-        echo '<a href="recipesToday.php" title="Todays recipe" id="recipesToday">Todays recipe</a>';
-        }
-        echo '  ';
-
-        if($pageName == "recipesNew")
-		{
-		echo '<a href="recipesNew.php" title="Create a new recipe" id="recipesNew" style="background:orange; color:orange;" >New</a>';
-		}
-		else
-		{
-        echo '<a href="recipesNew.php" title="Create a new recipe" id="recipesNew">New</a>';
-		}
-        echo '  ';
-
-		 if($pageName == "recipesEdit")
-		{
-		echo '<a href="recipesEdit.php" title="Change a recipe" id="recipesEdit" style="background:orange; color:orange;" >Edit</a>';
-		}
-		else
-		{
-        echo '<a href="recipesEdit.php" title="Change a recipe" id="recipesEdit">Edit</a>';
-        }
-        echo '  ';
-       
         echo '</center>';
         echo '<center><span class="motto">Hover over a link (above) for more info.</span></center>';
         echo '</div>';

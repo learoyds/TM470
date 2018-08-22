@@ -1,19 +1,20 @@
-       <?php
+<?php
 		include_once 'includes/HEAD_Include.php';
 		?>
-        <title>Today's menu</title>
+        <title>New Recipe</title>
         <?php
 		include_once 'includes/HEAD2_Include.php';
-		$pageName = "recipesToday";
+		$pageName = "recipesNew";
         
 		include_once 'includes/header_recipes.php';
 		?>
 <div class="content">
-		       <h1>Today's Recipe</h1>
+
+		       <h1>New Recipe</h1>
 
               <div>
 
-    Todays recipe below
+    Create a recipe
     
     </div>          
              <br/> 

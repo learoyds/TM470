@@ -11,19 +11,19 @@
 		}
 		else
 		{
-        echo '<a href="ingredients.php" title="Back" id="ingredients">Back</a>';
+        echo '<a href="index.php" title="Back" id="ingredients">Back</a>';
 		}
         echo '  ';
         if($pageName == "newIngredient")
 		{
-			echo '<a href="ingredientsAdd.php" title="Add an ingredient" id="addNew" style="background:#000;" >New Ingredient</a>';
+			echo '<a href="ingredientsAdd.php" title="Add an ingredient" id="addNew" style="background:orange; color:orange;" >New Ingredient</a>';
 		}
 		else
         echo '<a href="ingredientsAdd.php" title="Add an Ingredient">New Ingredient</a>';
         echo '  ';
 		if($pageName == "editIngredient")
 		{
-			echo '<a href="ingredientsEdit.php" title="Edit an ingredient" id="editIngredient" style="background:#000;" >Edit Ingredient</a>';
+			echo '<a href="ingredientsEdit.php" title="Edit an ingredient" id="editIngredient" style="background:orange; color:orange;" >Edit Ingredient</a>';
 		}
 		else
 		{

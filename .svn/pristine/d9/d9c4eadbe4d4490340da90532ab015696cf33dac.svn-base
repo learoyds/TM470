@@ -1,53 +1,46 @@
-<?php   
-echo '<div class="footer">';
+    <?php
+         echo '<div class="footer">';
 
 		 echo '<div id="mobileLinkBar">';
 		//echo '<div id="imageDiv"><center> <img src="assets/Learoyds-Laptop.png" class="imageStyle" alt="Learoyds logo" title="Welcome to Learoyds.com; please click on the appropriate link " /></center> </div>';
 
         echo '<center>';
-
-        
-        
-        if($pageName == "recipes")
+        if($pageName == "menus")
 		{
-		echo '<a href="index.php" title="Back to the main page" id="home" >Back</a>';
+			echo '<a href="index.php" title="Back to the main page" id="home";" >Back</a>';
 		}
 		else
 		{
-        echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
+        echo '<a href="index.php" title="Back" id="menus">Back</a>';
 		}
         echo '  ';
-
-        if($pageName == "recipesToday")
+        if($pageName == "thisWeek")
 		{
-			echo '<a href="recipesToday.php" title="Todays recipe" id="recipesToday" style="background:orange; color:orange;" >Todays recipe</a>';
+			echo '<a href="menuThisWeek.php" title="This weeks menu" id="thisWeek" style="background:orange; color:orange;" >This week</a>';
+		}
+		else
+        echo '<a href="menuThisWeek.php" title="This weeks menu">This week</a>';
+        echo '  ';
+		if($pageName == "3weeks")
+		{
+			echo '<a href="menu3weeks.php" title="This term\'s menu" id="3weeks" style="background:orange; color:orange;" >This term</a>';
 		}
 		else
         {
-        echo '<a href="recipesToday.php" title="Todays recipe" id="recipesToday">Todays recipe</a>';
+        echo '<a href="menu3weeks.php" title="This term\'s menu" id="websites">This term</a>';
         }
         echo '  ';
 
-        if($pageName == "recipesNew")
+		if($pageName == "Planning")
 		{
-		echo '<a href="recipesNew.php" title="Create a new recipe" id="recipesNew" style="background:orange; color:orange;" >New</a>';
+			echo '<a href="menuPlan.php" title="Plan a menu" id="planning" style="background:orange; color:orange;" >New menu</a>';
 		}
 		else
 		{
-        echo '<a href="recipesNew.php" title="Create a new recipe" id="recipesNew">New</a>';
+        echo '<a href="menuPlan.php" title="Plan a menu" id="websites">New menu</a>';
 		}
         echo '  ';
 
-		 if($pageName == "recipesEdit")
-		{
-		echo '<a href="recipesEdit.php" title="Change a recipe" id="recipesEdit" style="background:orange; color:orange;" >Edit</a>';
-		}
-		else
-		{
-        echo '<a href="recipesEdit.php" title="Change a recipe" id="recipesEdit">Edit</a>';
-        }
-        echo '  ';
-       
         echo '</center>';
         echo '<center><span class="motto">Hover over a link (above) for more info.</span></center>';
         echo '</div>';

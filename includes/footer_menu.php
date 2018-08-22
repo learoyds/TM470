@@ -16,14 +16,14 @@
         echo '  ';
         if($pageName == "thisWeek")
 		{
-			echo '<a href="menuThisWeek.php" title="This weeks menu" id="thisWeek" style="background:#000;" >This week</a>';
+			echo '<a href="menuThisWeek.php" title="This weeks menu" id="thisWeek" style="background:orange; color:orange;" >This week</a>';
 		}
 		else
         echo '<a href="menuThisWeek.php" title="This weeks menu">This week</a>';
         echo '  ';
 		if($pageName == "3weeks")
 		{
-			echo '<a href="menu3weeks.php" title="This term\'s menu" id="3weeks" style="background:#000;" >This term</a>';
+			echo '<a href="menu3weeks.php" title="This term\'s menu" id="3weeks" style="background:orange; color:orange;" >This term</a>';
 		}
 		else
         {
@@ -33,7 +33,7 @@
 
 		if($pageName == "Planning")
 		{
-			echo '<a href="menuPlan.php" title="Plan a menu" id="planning" style="background:#000;" >New menu</a>';
+			echo '<a href="menuPlan.php" title="Plan a menu" id="planning" style="background:orange; color:orange;" >New menu</a>';
 		}
 		else
 		{
