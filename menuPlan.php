@@ -11,6 +11,21 @@
 <div class="content">
             
             <h1>Menu Planning</h1>
+
+    <div class="transDiv">
+
+ <?php  //include tocreate database connection
+
+ include_once  'includes/requestDB.php'; ?>
+
+ <?php  //include to query the edit database table
+
+ include_once 'includes/sql_menu_edit.php';  ?>
+               
+ 
+  </div> <br/>
+
+
             
             
             <h2> <span class="red"> <a href="index.php">Back to the beginning</a> </span> </h2>
