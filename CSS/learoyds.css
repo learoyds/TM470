@@ -181,7 +181,14 @@ table#three_week_table, th, td{
 	border-collapse: collapse;
 }
 
- 
+/*dropdown lists*/
+
+.dropDown {
+color:white;
+background-color:black; 
+font-size:1em;
+border-color:black;
+}
 
 /* Footer */
 footer {
