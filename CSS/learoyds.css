@@ -297,14 +297,6 @@ footer {
         display: none;
     }
 
-    /*.transDiv {
-        font-size: 0.65em;
-    }*/
-
-    /*.transDivThree {
-        font-size: 0.65em;
-    }*/
-
     .content h1 {
         font-size: 2em;
     }
@@ -403,6 +395,21 @@ footer {
 	font-size:medium;
 	white-space:nowrap;
 	border-radius:9px;
+}
+
+button {
+    min-width: 220px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 200%;
+    color: #36F;
+    background: #CCCCCC;
+    text-decoration: none;
+    font-size: 1.5em;
+    white-space: nowrap;
+    border-radius: 9px;
 }
 
 .content .red a:hover{
