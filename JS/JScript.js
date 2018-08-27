@@ -5,6 +5,7 @@
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 ***********************************************/
 
+
 /* Modified to support Opera */
 function bookmarksite(title,url){
 if (window.sidebar) // firefox
@@ -25,6 +26,11 @@ else if(document.all)// ie
 ^ This notice MUST stay with this code for legal use
 ^ Visit www.learoyds.com for more information
 ***************************************************/
+
+function changeMenuDay(number) {
+
+}
+
 
 function SignIn() {
     /*if (document.title = "Sign In") {*/

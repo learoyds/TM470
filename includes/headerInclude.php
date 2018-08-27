@@ -1,6 +1,10 @@
 
         <?php
 
+        if(isset($con)){
+          $con->close();
+        }
+
 		echo '<div class="container">';
 
 		echo '<div id="topDiv"><center>School Dinner Management</center></div>';
@@ -13,17 +17,17 @@
         echo '<center>';
 		if($pageName == "home")
 		{
-			echo '<a href="index.php" title="Back to the main page" id="home" style="background:#000;" >Back</a>';
+			echo '<a href="index.php" title="Back to the main page" alt = "links back to the main page" id="home" style="background:#000;" >Back</a>';
 		}
 		else
 		{
-        echo '<a href="index.php" title="Back to the main page" id="home">Back</a>';
+        echo '<a href="index.php" title="Back to the main page" alt = "links back to the main page" id="home">Back</a>';
 		}
         echo '  ';
 
         if($pageName == "Menus and Planning")
 		{
-			echo '<a href="menus.php" title="Menus and meal planning" id="menus" style="background:#000;" >Menus</a>';
+			echo '<a href="menus.php" title="Menus and meal planning" alt="Link to menus and menu planning. id="menus" style="background:#000;" >Menus</a>';
 		}
 		else
 		{

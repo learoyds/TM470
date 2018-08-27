@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CSS",
-    "\\includes"
+    "\\includes",
+    "\\JS"
   ],
-  "SelectedNode": "\\includes\\sql_menu_edit.php",
+  "SelectedNode": "\\includes\\sql_menu_daily.php",
   "PreviewInSolutionExplorer": false
 }

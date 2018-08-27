@@ -44,7 +44,7 @@
 		}
 		else
 		{
-        echo '<a href="menuPlan.php" title="Plan a menu" id="websites">New menu</a>';
+        echo '<a href="menuPlan.php" title="Plan a menu" id="planning">New menu</a>';
 		}
         echo '  ';
 
