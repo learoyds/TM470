@@ -13,36 +13,40 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 echo "the page number is set to " . $_COOKIE[$cookie_name];
 */
 echo "<form action = 'menuPlan.php' method = 'POST' name='menuPlan'>";
-echo "<table id='daily_table' class='menu_tables' >
-      <tr>
-           <th class='table_title'>Week <select id='week' name='weekSelect' onchange=' ' style='word-break:break-word; color:#6F0; font-weight:bold;  background-color:black; font-size:1em;border-color:black;'>
-                   <option selected disabled hidden value='No?'>No?</option>
+
+           
+echo "<table id='daily_table' class='menu_tables' > 
+
+       <tr>      <th class='table_title'>Week <select id='week' name='weekSelect' onchange=' ' style='word-break:break-word; color:#6F0; font-weight:bold; width:100%; max-width:90% ;  background-color:black; font-size:1em;border-color:black;'>
+                   <option selected disabled hidden value='Number'>Number</option>
                    <option value='1'> 1 </option>
                    <option value='2'> 2 </option>
                    <option value='3'> 3 </option> </select>
-           </th>
+           </th>   </tr>
+      <tr>
+           
            <th>Main</th>
            <th>Pudding</th>
-      </tr> 
-      <tr>
-           <th style='word-break:break-word;'>Monday</th>";
-  echo         "<td>";
-  echo "<select name='getMonL' style='word-break:break-word; color:white; background-color:black; font-size: 1em; border-color:black;'>
+      </tr>"; 
+      
+    //      <th style='word-break:break-word;'></th>
+  echo         " <tr><td>Monday </br>";
+  echo "<select name='getMonL' style='word-break:break-word; color:white; width:100%; max-width:90% ;background-color:black; font-size: 1em; border-color:black;'>
            <option selected disabled hidden value='New Main'>New Main</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 0";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
   
-    echo "<option value = '" . $row['name'] . "'>" . $row['name'] . "</option>";
+    echo "<option value = '" . $row['Full_name'] . "'>" . $row['Full_name'] . "</option>";
  } 
 $result->free();     
 echo "</select>";
 
 echo "</td>";      
-  echo         "<td>";
+  echo         "<td>Monday </br>";
 
-echo "<select name='getMonP' style='color:white; ; background-color:black; font-size:1em;border-color:black;'>
-         <option selected disabled hidden value='New Pudding'>New Pudding</option> ";
+echo "<select name='getMonP' style='color:white; width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
+         <option selected disabled hidden value='New Pudding'>Pudding</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 1";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
@@ -54,11 +58,11 @@ echo "</select>";
 
 
 echo "</td>";    
-  echo   "</tr>
-      <tr>      <th style='word-break:break-word;'>Tuesday </th>";
-  echo         "<td>";
+  echo   "</tr>";
+    //       <th style='word-break:break-word;'> </th>
+  echo         "<tr> <td>Tuesday </br>";
 
-echo "<select name='getTuesL' style='color:white; background-color:black; font-size:1em;border-color:black;'>
+echo "<select name='getTuesL' style='color:white; width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
          <option selected disabled hidden value='New Main'>New Main</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 0";
 $result = $con -> query ($sql);
@@ -71,10 +75,10 @@ echo "</select>";
 
 
 echo "</td>";    
-  echo         "<td>";
+  echo         "<td>Tuesday </br>";
 
-echo "<select name='getTuesP' style='color:white; background-color:black; font-size:1em;border-color:black;'>
-         <option selected disabled hidden value='Nem Pudding'>New Pudding</option> ";
+echo "<select name='getTuesP' style='color:white; width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
+         <option selected disabled hidden value='New Pudding'>Pudding</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 1";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
@@ -86,11 +90,11 @@ echo "</select>";
 
 
 echo "</td>";    
- echo   "</tr>
-      <tr>      <th style='word-break:break-word;'>Wednesday</th>";
-  echo         "<td>";
+ echo   "</tr>";
+  //         <th style='word-break:break-word;'></th>
+  echo         "<tr> <td>Wednesday </br>";
 
-echo "<select name='getWedL' style='color:white; background-color:black; font-size:1em;border-color:black;'>
+echo "<select name='getWedL' style='color:white;width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
          <option selected disabled hidden value='New Main'>New Main</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 0";
 $result = $con -> query ($sql);
@@ -104,10 +108,10 @@ echo "</select>";
 
 echo "</td>";    
     
-  echo         "<td>";
+  echo         "<td>Wednesday </br>";
 
-echo "<select name='getWedP' style='color:white; background-color:black; font-size:1em;border-color:black;'>
-         <option selected disabled hidden value='New Pudding'>New Pudding</option> ";
+echo "<select name='getWedP' style='color:white;width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
+         <option selected disabled hidden value='New Pudding'>Pudding</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 1";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
@@ -119,11 +123,11 @@ echo "</select>";
 
 
 echo "</td>";    
-  echo   "</tr>
-      <tr>      <th style='word-break:break-word;'>Thursday</th>";
-  echo         "<td>";
+  echo   "</tr>";
+    //        <th style='word-break:break-word;'></th>
+  echo         "<tr>  <td>Thursday </br>";
 
-echo "<select name='getThursL' style='color:white; background-color:black; font-size:1em;border-color:black;'>
+echo "<select name='getThursL' style='color:white;width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
          <option selected disabled hidden value='New Main'>New Main</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 0";
 $result = $con -> query ($sql);
@@ -136,10 +140,10 @@ echo "</select>";
 
 
 echo "</td>";    
-  echo         "<td>";
+  echo         "<td>Thusday </br>";
 
-echo "<select name='getThursP' style='color:white; background-color:black; font-size:1em;border-color:black;'>
-         <option selected disabled hidden value='New Pudding'>New Pudding</option> ";
+echo "<select name='getThursP' style='color:white;width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
+         <option selected disabled hidden value='New Pudding'>Pudding</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 1";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
@@ -151,11 +155,11 @@ echo "</select>";
 
 
 echo "</td>";    
-   echo   "</tr>
-      <tr>      <th style='word-break:break-word;'>Friday</th>";
-  echo         "<td>";
+   echo   "</tr>";
+        //   <th style='word-break:break-word;'></th>
+  echo         " <tr>  <td>Friday </br>";
 
-echo "<select name='getFriL' style='color:white; background-color:black; font-size:1em;border-color:black;'>
+echo "<select name='getFriL' style='color:white;width:100%; max-width:90% ;background-color:black; font-size:1em;border-color:black;'>
          <option selected disabled hidden value='New Main'>New Main</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 0";
 $result = $con -> query ($sql);
@@ -168,10 +172,10 @@ echo "</select>";
 
 
 echo "</td>";        
-  echo         "<td>";
+  echo         "<td>Friday </br>";
 
-echo "<select name='getFriP' style='color:white; background-color:black; font-size:1em;border-color:black;'>
-         <option selected disabled hidden value='New Pudding'>New Pudding</option> ";
+echo "<select name='getFriP' style='color:white;width:100%; max-width:90% ; background-color:black; font-size:1em;border-color:black;'>
+         <option selected disabled hidden value='New Pudding'>Pudding</option> ";
 $sql="SELECT * FROM recipes name where is_pudding = 1";
 $result = $con -> query ($sql);
   while ($row = $result->fetch_assoc()){          
