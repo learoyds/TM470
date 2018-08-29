@@ -27,7 +27,7 @@
 
         if($pageName == "Menus and Planning")
 		{
-			echo '<a href="menus.php" title="Menus and meal planning" alt="Link to menus and menu planning. id="menus" style="background:#000;" >Menus</a>';
+			echo '<a href="menus.php" title="Menus and meal planning"  id="menus" style="background:#000;" >Menus</a>';
 		}
 		else
 		{

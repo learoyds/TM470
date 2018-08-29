@@ -12,7 +12,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 
 echo "the page number is set to " . $_COOKIE[$cookie_name];
 */
-echo "<form action = 'includes/menus_add_DB.php' method = 'POST' name='menuPlan'>";
+echo "<form action = 'menuPlan.php' method = 'POST' name='menuPlan'>";
 
            
 echo "<table id='daily_table' class='menu_tables' > 
@@ -195,7 +195,7 @@ echo "</td>";
 
    
 
-echo "<br/> <h2> <span class='red'> <button type = 'submit' formmethod= 'post' name='submit'>Submit</button> </span> </h2> 
+echo "<br/> <h2> <span class='red'> <input type = 'submit' value= '' name='submit'>Submit</button> </span> </h2> 
   </form>";
 
  /* $weekNo = $_POST['weekSelect']; // week selected is now held in a variable - $weekNo, and use this to update database
