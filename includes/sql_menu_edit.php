@@ -12,7 +12,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 
 echo "the page number is set to " . $_COOKIE[$cookie_name];
 */
-echo "<form action = 'includes/menus_add_DB.php' method = 'POST' name='menuPlan'>";
+echo "<form action = 'menus_add_DB.php' method = 'POST' name='menuPlan'>";
 
            
 echo "<table id='daily_table' class='menu_tables' > 
@@ -188,34 +188,16 @@ $result->free();
 echo "</select>";
 
 
+
 echo "</td>";    
  echo     "</tr>
  </table>
 ";
 
-   
+ $con->close();  
 
 echo "<br/> <h2> <span class='red'> <button type = 'submit' formmethod= 'post' name='submit'>Submit</button> </span> </h2> 
   </form>";
 
- /* $weekNo = $_POST['weekSelect']; // week selected is now held in a variable - $weekNo, and use this to update database
-  $monLunch = $_POST['getMonL'];
-  $monPudding = $_POST['getMonP'];
-  $tuesLunch = $_POST['getTuesL'];
-  $tuesPudding = $_POST['getTuesP'];
-   
-// need an if post has happened to avoid null answers
-
-  if (isset($weekNo) && ($monLunch) && ($monPudding) && ($tuesLunch) && ($tuesPudding))
-  {
-     echo 'Well done! Form has been submitted successfully.';
-  }
-  else
-  {
-     echo 'SNAP! please fill all the required fields.';
-  };*/
-//UPDATE menus
-//SET whatever I called the monday lunch in them database=$weekNo, monday pudding in db = 
-// WHERE week = $weekNo
 
 ?> 
