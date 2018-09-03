@@ -9,15 +9,13 @@
         include_once 'includes/headerInclude.php';
 		?>
 <div class="content">
-		 <h1>Meal Planning</h1>
+		 <h1>Recipe Planning</h1>
     <br />
-    <center><h2>Choose or begin a new meal:<br />
+    <center><h2>Choose or begin a new recipe:</h2><br />
 
     <span class="red"><a href="mailto: chat@learoyds.com" title="Send an email">Enquiries</a></span></h2>
 
-    <h2>Pick a meal</h2>
-
-    <h2>New meal</h2></center>
+    
         
 </div>
         <?php

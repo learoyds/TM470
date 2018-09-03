@@ -20,12 +20,14 @@
          <div>
 
     Create a recipe
+
+   <?php 
+    include_once 'includes/requestDB.php';
+
+include_once 'includes/sql_recipes_new.php'; ?>
     
         </div>          
-             <br/> 
-                                     
-<h2> <span class="red"> <a href="index.php">Back to the beginning</a> </span></h2>
-        
+     
 </div>
 
         <?php

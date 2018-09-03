@@ -17,8 +17,14 @@ echo "<form action = 'menus_add_DB.php' method = 'POST' name='menuPlan'>";
            
 echo "<table id='daily_table' class='menu_tables' > 
 
-       <tr>      <th class='table_title'>Week</th> 
-             <td>   <select id='week' name='weekSelect' onchange=' ' style='word-break:break-word; float:left; color:#6F0; font-weight:bold; width:30%; max-width:25% ; background-color:black; font-size:1em;border-color:black;'>
+       <tr>      <th class='table_title'>
+    <div>
+        <label for='start'>Week Starting Date</label>
+        <input type='date' id='start' name='weekStart'
+               value='2018-09-02'
+               min='2018-01-01' max='2019-09-01' />
+    </div></th> 
+             <td>   <select id='week' name='weekSelect' onchange=' ' style='word-break:break-word; float:left; color:#6F0; font-weight:bold; width:100%; max-width:50% ; background-color:black; font-size:1em;border-color:black;'>
                    <option selected disabled hidden value='Number'>Number</option>
                    <option value='1'> 1 </option>
                    <option value='2'> 2 </option>
