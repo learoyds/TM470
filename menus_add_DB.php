@@ -16,28 +16,24 @@
 
  <?php
 
+// initiate connection with the database
 
 include_once 'includes/requestDB.php';
 
-//$weekSelect= intval($_POST['weekSelect']);
-
-//echo "monday main is " . $_POST['getMonL'];
-echo  "</br>";
-
-//include_once '/menus_make_vars.php';
-
+//Create a variable for the week choice.
 
 $weekNumber = $_POST['weekSelect'];
-echo $weekNumber;
-echo "</BR>";
-//if(isset($_POST['weekSelect'])){
+
+// query to fetch the menu for the correct week
+
 $mysql = "SELECT * FROM `menus` WHERE `menus`.`week_number` = '$weekNumber'";
 
+// create result variable and iterate through the variable's array using a while loop
 
 $aresult = $con->query($mysql);
 
    if ($aresult != false){
- //if($con->query($mysql) === true){
+ 
  while($arow = $aresult->fetch_assoc()){
 
 $mondayMain  = $arow['monday_main'];
@@ -53,9 +49,10 @@ $fridayPudding = $arow['friday_pudding'];
 }
 }
 else{
-    echo "NO GO HOSE";
+    echo "Error: " . $sql . "<br>" . $con->error;
 }
-//}
+// Assign post variables carried over from the form to days of the week 
+
 echo $thursdayPudding;
 
 if (isset($_POST['getMonL'])){
@@ -88,6 +85,8 @@ if (isset($_POST['getFriL'])){
 if (isset($_POST['getFriP'])){
     $fridayPudding = ($_POST['getFriP']);
 }
+
+//php handled mysql query to change data in the database for menus on the week $weekNumber.
 
 $sql="UPDATE `menus` 
      SET `monday_main` = '$mondayMain', `monday_pudding` = '$mondayPudding', `tuesday_main` = '$tuesdayMain', `tuesday_pudding` = '$tuesdayPudding', `wednesday_main` = '$wednesdayMain', `wednesday_pudding` = '$wednesdayPudding', `thursday_main` = '$thursdayMain', `thursday_pudding` = '$thursdayPudding', `friday_main` = '$fridayMain', `friday_pudding` = '$fridayPudding'

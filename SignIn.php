@@ -8,6 +8,8 @@ session_start();
 $_SESSION['username'];
 $_SESSION['password'];
 
+
+
 /*check the user name and password against the database to follow and replace the ******** but at this time a user name and password will
 be set up here as time limitations have cut short development time and this is for first release.*/
 
@@ -17,9 +19,9 @@ if(($_SESSION['username'] =='chris learoyd') && ($_SESSION['password'] =='party@
 else
 
 // set session variables to input
-  
+ 
 $_SESSION['username'] = $_POST['Sign-in'];
-$_SESSION['password'] = $_POST['Password']
+$_SESSION['password'] = $_POST['Password'];
 ?>
 <?php
     /*I need to check if the user is in the database: 

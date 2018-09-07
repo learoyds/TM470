@@ -1,7 +1,7 @@
        <?php
 		include_once 'includes/HEAD_Include.php';
 		?>
-        <title>Today's menu</title>
+        <title>Today's recipe</title>
         <?php
 		include_once 'includes/HEAD2_Include.php';
 		$pageName = "recipesToday";
@@ -67,13 +67,17 @@ if(Date('w') == 5){
        $todayP = $friP;
 }
 }}
+$result->free();
+
 // echo Date('w');
 ?>
    
 <?php
 
-    $sql = "SELECT * FROM `recipes` WHERE `recipes` . `Full_name` = '$todayM'";
-    $result = $con->query($sql);
+    include_once 'includes/requestDB.php';
+
+     $sql = "SELECT * FROM `recipes` WHERE `recipes` . `Full_name` = '$todayM'";
+     $result = $con->query($sql);
 
    if ($result != false){
     while($row = $result->fetch_assoc()){

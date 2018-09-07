@@ -19,11 +19,9 @@
 
 include_once 'includes/requestDB.php';
 
-
+$isPud = 0;
 if ($_POST['isPud']){
     $isPud = 1;
-}else{
-    $isPud = 0;
 }
 if (isset($_POST['getName'])){
     $name = ($_POST['getName']);
