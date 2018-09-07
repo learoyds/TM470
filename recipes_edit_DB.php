@@ -24,14 +24,15 @@ if(isset($_POST['recipeSelect'])) {
  include_once 'includes/requestDB.php';
    $theRecipe = $_POST['recipeSelect'];
    
-   $sql = "SELECT * FROM recipes WHERE Full_name = '$theRecipe'"
+   //$sql = "SELECT * FROM recipes"; //WHERE Full_name = '$theRecipe'"
    echo "You have chosen to edit " . $theRecipe;
    echo "</br>";
    
  
-   //include_once 'includes/sql_recipes_edit.php';
+   include_once 'includes/sql_recipes_edit.php';
    }
- 
+else {
+	echo "No selection, please try again: ";} 
  
 
 /*
