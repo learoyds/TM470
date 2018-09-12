@@ -32,8 +32,8 @@ $result = $con -> query ($sql);
  } 
 $result->free(); 
 $con->close();
-?> </br></br>
-   </select>
+?> 
+   </select></br></br>
              
 <h2> <span class='red'> <button type = 'submit' formmethod= 'post' name='submit'>Choose</button></span> </h2> 
 

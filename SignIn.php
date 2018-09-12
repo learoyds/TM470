@@ -1,7 +1,9 @@
 <?php
-// Start the session
+// Start the session and set it to expire in 10 minutes or 600 seconds
 
+$lifetime=600;
 session_start();
+setcookie(session_name(),session_id(),time()+$lifetime);
 
 // initiate the variables
 

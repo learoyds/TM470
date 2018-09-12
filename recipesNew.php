@@ -19,7 +19,9 @@
 
          <div>
 
-    Create a recipe
+   <h2> Create a recipe <h2>
+
+	</br>
 
    <?php 
     include_once 'includes/requestDB.php';

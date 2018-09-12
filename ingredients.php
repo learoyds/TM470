@@ -10,10 +10,8 @@
 		?>
 <div class="content">
 		 <center><h1>Ingredients</h1></center>
-    <br />
-    
-  
-        
+ <br><br>
+ <h2>Please choose one of the buttons to add or edit a recipe.</h2>
 </div>
         <?php
         include_once 'includes/footer_ingredients.php';
