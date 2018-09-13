@@ -1,7 +1,7 @@
        <?php
 		include_once 'includes/HEAD_Include.php';
 		?>
-        <title>Edit Ingredients</title>
+        <title>Today's menu</title>
         <?php
 		include_once 'includes/HEAD2_Include.php';
 		
@@ -13,32 +13,28 @@
 		       <h1>Add an Ingredient</h1>
         <br>
     
-  <h2>Please choose the name of the ingredient and click Submit to edit it.</h2>
+  <h2>Make any changes required and submit it to the database.</h2>
   <br>
+  <?php
+      $name = $_POST['getIng'];
+      //echo $name;
+  ?>
 <div>  
  <form action='ingredients_edit_DB.php' method="post" name='ingSelect'>
 
   <table id='daily_table' class='menu_tables' > 
 
        <tr> 
-          <th class='table_title' colspan="2">Ingredient Selector </th>
+          <th class='table_title' colspan="2">Ingredient Editor </th>
        </tr>
   
  <tr><td>Ingredient name </td>
 <?php
 
-include_once 'includes/requestDB.php';
-echo "<td>";
-  echo "<select name='getIng' style='word-break:break-word; color:white; width:100%; max-width:90% ;background-color:black; font-size: 1em; border-color:black;'>
-           <option selected disabled value='Choose'>Choose</option> ";
-$sql='SELECT * FROM ingredients';
-$result = $con -> query ($sql);
-  while ($row = $result->fetch_assoc()){          
-  $ingName = $row['name'];
-echo "<option name='ingEdit' value = ' $ingName '> $ingName </option>";
- } 
-$result->free();     
-echo "</select>";
+//include_once 'includes/requestDB.php';
+echo "<td>  ";
+  echo "<input name='getIng' value='$name' type = 'text'/> ";
+          
 ?>
 </td></tr></table><br><br>  
 
