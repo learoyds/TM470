@@ -18,7 +18,7 @@
 <div>  
   <form action = 'ingredients_add_DB.php' method = 'POST' name='menuPlan'>
   
-        <input type='text' name='ingIn' value="Name here"><br>           
+        <input type='text' name='ingIn' placeholder='Name here' ><br>           
           
         <br> <h2> <span class='red'> <button type="submit" name="ingSubmit" value="Submit" formmethod="post">Save</button></span></h2>
  </form>  
